@@ -1,0 +1,14 @@
+
+.icono {
+    @include grid(3, 2rem);
+
+    img {
+        height: 8rem;   
+    }
+    p {
+        margin: 0;
+        text-align: center;
+    }
+
+}
+

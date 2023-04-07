@@ -1,0 +1,77 @@
+.no-webp .inicio {
+    background-image: url(../img/fondoMain.jpg);
+}
+.webp .inicio {
+    background-image: url(../img/fondoMain.webp);
+}
+.header {
+    background-color: $grisOscuro;
+    padding: 2rem 0 3rem 0;
+
+    &.inicio {
+        background-position: center center; /*alineamos la imagen centrada en ambos lados*/
+        background-size: cover; /*toma todo el ancho disponible*/
+        
+        @include tablet{
+            min-height: 70rem;/*damos una altura minima al background*/
+        }
+
+        .contenido-header {
+            @include tablet{
+                min-height: 70rem;
+            }
+        }
+    }
+}
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+        font-weight: $bold;
+    }
+    h1, h2 {
+        margin: 0;
+        text-align: center;
+        color: $blanco;
+        
+    }
+    p {
+        color: $blanco;
+        text-align: center;
+        margin: 0 0 2rem 0;
+    }
+}
+.logo {
+    height: 8rem;
+    width: auto;
+    border-radius: 5rem;
+}
+.redes-sociales {
+    @include grid(4, 0.2rem);
+    max-width: 30rem;
+    margin: 0 auto;
+    .redes-sociales__iconos {
+        width: 3rem;
+        color: $blanco;
+
+    }
+}
+.image-dev {
+    width: 12rem;
+    .foto-perfil {
+        border-radius: 50%;
+      }
+}
+.descarga-cv {
+    a {
+        margin-top: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+        &:hover {
+            background-color: darken($gris, 5);
+            cursor: pointer;
+        }
+}
+}

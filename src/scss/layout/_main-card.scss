@@ -1,0 +1,75 @@
+.main-card {
+        article {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid $gris;
+            border-radius: 0.5rem;
+        }
+        article h3 {
+            margin-bottom: 0.5rem;
+        }
+        article p {
+            font-size: 1rem;
+            margin: 0;
+        }
+    .card {
+        background-color: $blanco;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+
+      }
+      .card h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .card .img-estudios{
+        width: 10rem;
+      }
+      .card-estudio {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 0.8fr 1.2fr;
+        h5 {
+            margin: 0;
+        }
+      }
+    
+      .enlaces {
+        @include grid(2, 2rem);
+        text-align: center;
+        a {
+            margin-top: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+            &:hover {
+                background-color: darken($gris, 5);
+                cursor: pointer;
+            }
+      }
+        }
+    @include tablet{
+        @include grid(2, 2rem);
+        }
+        .card-proyectos {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .card-proyectos:last-child {
+          align-self: end;
+        }
+    @include desktop{
+        @include grid(3, 2rem);
+        .card h2 {
+          font-size: 20px;
+        }
+        }
+}
+

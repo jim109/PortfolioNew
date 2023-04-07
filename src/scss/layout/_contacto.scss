@@ -1,0 +1,22 @@
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons li {
+    list-style: none;
+    margin-right: 3rem;
+  }
+  
+  .social-icons a {
+    color: $gris;
+    font-size: 24px;
+    transition: color 0.2s;
+  }
+  
+  .social-icons a:hover {
+    color: $amarillo;
+  }
+  
