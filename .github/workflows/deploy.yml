@@ -41,8 +41,8 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: '/'
-        local-dir: '/'
+        server-dir: '/home1/jimmy0sm/test.jimmyosma.co'
+        local-dir: '/home1/jimmy0sm/test.jimmyosma.co'
         exclude: ''
 
     - name: Cleanup
