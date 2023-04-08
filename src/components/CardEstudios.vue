@@ -2,7 +2,7 @@
     <article v-for="estudio in estudiosUser" :key="estudio.titulo" class="card card-estudio">
         <div >
             <a :href="estudio.link" target="_blank">
-                <img class="img-estudios" :src="`/src/assets/${estudio.nombreLogo}.jpeg`" alt="logo estudios">
+                <img class="img-estudios"  :src="`/assets/${estudio.nombreLogo}.jpeg`" alt="logo estudios">
             </a>
         </div>
         <div>

@@ -1,6 +1,6 @@
 <template>
     <article v-for="proyecto in proyectosUser" :key="proyecto.nombre" class="card card-proyectos">
-        <a :href="proyecto.link"><img :src="`/src/assets/${proyecto.nombreImg}.png`" alt="imagen proyecto"></a>
+        <a :href="proyecto.link"><img :src="`/assets/${proyecto.nombreImg}.png`" alt="imagen proyecto"></a>
         <h2>{{ proyecto.nombre }}</h2>
         <p>{{ proyecto.resumen }}</p>
         <div class="enlaces">

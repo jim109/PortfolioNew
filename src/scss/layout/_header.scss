@@ -1,8 +1,5 @@
-.no-webp .inicio {
-    background-image: url(../img/fondoMain.jpg);
-}
-.webp .inicio {
-    background-image: url(../img/fondoMain.webp);
+.inicio {
+    background-image: url(/assets/fondoMain.jpg);
 }
 .header {
     background-color: $grisOscuro;
@@ -11,7 +8,7 @@
     &.inicio {
         background-position: center center; /*alineamos la imagen centrada en ambos lados*/
         background-size: cover; /*toma todo el ancho disponible*/
-        
+
         @include tablet{
             min-height: 70rem;/*damos una altura minima al background*/
         }
@@ -34,7 +31,7 @@
         margin: 0;
         text-align: center;
         color: $blanco;
-        
+
     }
     p {
         color: $blanco;

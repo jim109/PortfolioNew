@@ -12,11 +12,11 @@
     .main-card {
         .card {
             background-color: $gris;
-            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
             
           }
         h2, a {
-            color: $negro;
+            color: $negro; 
         }
         p {
             color: $grisOscuro;

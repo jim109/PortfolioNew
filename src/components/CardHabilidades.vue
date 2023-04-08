@@ -1,6 +1,6 @@
 <template>
     <div v-for="habilidades in habilidadesUser" :key="habilidades.nombre">
-        <img :src="`/src/assets/${habilidades.nombreRuta}.svg`" :alt="'logo ' + habilidades.nombre ">
+        <img :src="`/assets/${habilidades.nombreRuta}.svg`" :alt="'logo ' + habilidades.nombre ">
         <p>{{ habilidades.nombre }}</p>
     </div>
 </template>
