@@ -75,6 +75,14 @@ export const estudios = [
 
 export const proyectos = [
     {
+        nombre: 'Pokémon Info',
+        resumen: 'Aplicación Web la cual administra la información de la Api de PokeApi, consumimos la Api mediante Axios, Listamos cantidad de Pokémon y visualización de cada uno mediante una card con color dependiendo del tipo de Pokémon. Desarrollado en Vue3 con Composition Api y Sass. ',
+        link: 'https://pokemonapivue3.netlify.app/#/',
+        nombreImg: 'pokeapi',
+        github: 'https://github.com/jim109/PokeApiVue',
+        web: 'https://pokemonapivue3.netlify.app/#/'
+    },
+    {
         nombre: 'Studio Ghibli Tracker',
         resumen: 'Aplicación Web que muestra todos los catálogos de películas producidas por Studio Ghibli,desarrollada en Nextjs, Sass, Atomic Design, consumiendo una Api.',
         link: 'https://studio-ghibli-theta.vercel.app',
