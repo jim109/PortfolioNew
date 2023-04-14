@@ -21,8 +21,7 @@ export default {
         return {
             proyectosUser
         }
-    }
-
+    } 
 }
 </script>
 
