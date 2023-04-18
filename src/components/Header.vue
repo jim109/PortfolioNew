@@ -20,11 +20,11 @@
                 </div>  
             </div>
             <div class="contenedor seccion">
-                <h2>Hola👋! Soy</h2>
-                <h1>Jimmy Steve Osma</h1>
-                <p>Frontend Developer</p>
+                <h2 class="animate__animated animate__fadeIn">Hola👋! Soy</h2>
+                <h1 class="animate__animated animate__fadeIn">Jimmy Steve Osma</h1>
+                <p class="animate__animated animate__fadeIn">Frontend Developer</p>
                 <div class="contenedor contenedor-boton">
-                    <a class="boton-amarillo" href="https://1drv.ms/b/s!AjfAQ0H3dxiX2aMffOf1rTGSnJzHBw?e=I9oqDV" target="_blank" rel="noopener noreferrer">Descargar CV</a>
+                    <a class="boton boton-amarillo animate__animated animate__fadeIn" href="https://1drv.ms/b/s!AjfAQ0H3dxiX2aMffOf1rTGSnJzHBw?e=I9oqDV" target="_blank" rel="noopener noreferrer">Descargar CV</a>
                 </div>
             </div>
         </div>

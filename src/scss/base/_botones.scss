@@ -3,6 +3,9 @@
     @include boton($amarillo, inline-block);
     
 }
+.boton:hover {
+    animation: pulse 1s;
+}
 .boton-amarillo-block {
     @include boton($amarillo, block);
 }

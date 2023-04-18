@@ -3,7 +3,7 @@
         <div class="contenedor contenedor-footer">
             <p class="copyright">Contactame</p>
             <ul class="social-icons">
-                <li><a href="https://api.whatsapp.com/send?phone=573022301506"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=573022301506"><i class=" fab fa-whatsapp"></i></a></li>
                 <li><a href="mailto:me@jimmyosma.co" target="_blank"><i class="far fa-envelope"></i></a></li>
                 <li><a href="https://github.com/jim109" target="_blank"><i class="fab fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/jimmyosma/" target="_blank"><i class="fab fa-linkedin"></i></a></li>

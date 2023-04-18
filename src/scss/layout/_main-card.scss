@@ -16,6 +16,7 @@
         background-color: $blanco;
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease-out;
         padding: 20px;
       }
       .card img {
@@ -35,11 +36,14 @@
         display: grid;
         gap: 1rem;
         grid-template-columns: 0.8fr 1.2fr;
+        
         h5 {
             margin: 0;
         }
       }
-    
+      .card-estudio:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }    
       .enlaces {
         @include grid(2, 2rem);
         text-align: center;

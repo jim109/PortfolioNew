@@ -12,8 +12,11 @@
     .main-card {
         .card {
             background-color: $gris;
-            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
-            
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease-out;
+          }
+          .card:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 0 0 2px var(#f2f2f2);
           }
         h2, a {
             color: $negro; 
