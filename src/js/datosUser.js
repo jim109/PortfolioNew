@@ -1,23 +1,33 @@
 
 export const habilidades = [
+    {   nombreRuta: 'javascript',
+    nombre: 'Javascript'
+    },
+    {   nombreRuta: 'vue',
+    nombre: 'Vue'
+    },
     {   nombreRuta: 'react',
         nombre: 'React'
     },
-    {   nombreRuta: 'vue',
-        nombre: 'Vue'
-    },
-    {   nombreRuta: 'javascript',
-        nombre: 'Javascript'
-    },
-    {   nombreRuta: 'mysql',
-        nombre: 'Mysql'
+    {   nombreRuta: 'tailwind',
+    nombre: 'Tailwind'
     },
     {   nombreRuta: 'figma',
-        nombre: 'Figma'
+    nombre: 'Figma'
     },
-    {   nombreRuta: 'php',
-        nombre: 'Php'
-    } 
+    {   nombreRuta: 'nodejs',
+    nombre: 'Node'
+    },
+    {   nombreRuta: 'express',
+        nombre: 'Express'
+    },
+    {   nombreRuta: 'mongodb',
+    nombre: 'MongoDB'
+    },    
+    {   nombreRuta: 'mysql',
+    nombre: 'Mysql'
+    },
+
 ]
 
 export const estudios = [
@@ -34,6 +44,13 @@ export const estudios = [
         titulo: 'Platzi Master - Frontend Developer',
         universidad: 'Platzi Master Cohort 10',
         fecha: '2022'
+    },
+    {
+        link:'https://www.udemy.com/certificate/UC-8cbe8dc9-1097-43a4-9074-886c4c3eb012/',
+        nombreLogo: 'udemy',
+        titulo: 'Curso de Backend Developer con Nodejs',
+        universidad: 'Udemy',
+        fecha: '2023'
     },
     {
         link:'https://platzi.com/p/jimwy109/curso/2467-course/diploma/detalle/',
@@ -74,6 +91,14 @@ export const estudios = [
 ]
 
 export const proyectos = [
+    {
+        nombre: 'Fast Money',
+        resumen: 'Aplicacion Web de Convertidor de Divisas, tenemos un Login el cual se manejo en Backend con Express, JWT y en el lado del Frontend Recibimos un Api de Currencies la cual nos muestra un grafico de ChakraUI de los ultimos 7 dias de movimientos de la moneda y adicional permite la conversion de la misma a diferentes currencies, esta se manejo con Vue3 Composition Api y Tailwind. Quieres probrar Login: test@test.com Password: 1234567',
+        link: 'https://fast-money.netlify.app/',
+        nombreImg: 'fastMoney',
+        github: 'https://github.com/jim109/CurrencyConverter',
+        web: 'https://fast-money.netlify.app/'
+    },
     {
         nombre: 'Pokémon Info',
         resumen: 'Aplicación Web la cual administra la información de la Api de PokeApi, consumimos la Api mediante Axios, Listamos cantidad de Pokémon y visualización de cada uno mediante una card con color dependiendo del tipo de Pokémon. Desarrollado en Vue3 con Composition Api y Sass. ',

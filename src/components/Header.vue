@@ -22,7 +22,7 @@
             <div class="contenedor seccion">
                 <h2 class="animate__animated animate__fadeIn">Hola👋! Soy</h2>
                 <h1 class="animate__animated animate__fadeIn">Jimmy Steve Osma</h1>
-                <p class="animate__animated animate__fadeIn">Frontend Developer</p>
+                <p class="animate__animated animate__fadeIn">Fullstack Developer</p>
                 <div class="contenedor contenedor-boton">
                     <a class="boton boton-amarillo animate__animated animate__fadeIn" href="https://1drv.ms/b/s!AjfAQ0H3dxiX2aMffOf1rTGSnJzHBw?e=I9oqDV" target="_blank" rel="noopener noreferrer">Descargar CV</a>
                 </div>
