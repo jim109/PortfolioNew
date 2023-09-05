@@ -93,7 +93,7 @@ export const estudios = [
 export const proyectos = [
     {
         nombre: 'Fast Money',
-        resumen: 'Aplicacion Web de Convertidor de Divisas, tenemos un Login el cual se manejo en Backend con Express, JWT y en el lado del Frontend Recibimos un Api de Currencies la cual nos muestra un grafico de ChakraUI de los ultimos 7 dias de movimientos de la moneda y adicional permite la conversion de la misma a diferentes currencies, esta se manejo con Vue3 Composition Api y Tailwind. Quieres probrar Login: test@test.com Password: 1234567',
+        resumen: 'Aplicacion Web de Convertidor de Divisas, tenemos un Login el cual se manejo en Backend con Express, JWT y en el lado del Frontend Recibimos un Api de Currencies la cual nos muestra un grafico de ChakraUI de los ultimos 7 dias de movimientos de la moneda y adicional permite la conversion de la misma a diferentes currencies, esta se manejo con Vue3 Composition Api y Tailwind.',
         link: 'https://fast-money.netlify.app/',
         nombreImg: 'fastMoney',
         github: 'https://github.com/jim109/CurrencyConverter',
