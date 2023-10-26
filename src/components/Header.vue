@@ -24,7 +24,7 @@
                 <h1 class="animate__animated animate__fadeIn">Jimmy Steve Osma</h1>
                 <p class="animate__animated animate__fadeIn">Fullstack Developer</p>
                 <div class="contenedor contenedor-boton">
-                    <a class="boton boton-amarillo animate__animated animate__fadeIn" href="https://res.cloudinary.com/redcoit/image/upload/v1693952515/Frontend_JimmySteveOsma_CV-ES-1_heiy0l.pdf" target="_blank" rel="noopener noreferrer">Descargar CV</a>
+                    <a class="boton boton-amarillo animate__animated animate__fadeIn" href="https://res.cloudinary.com/redcoit/image/upload/v1698331362/Fullstack_JimmySteveOsma_CV-ES-1_sbkkj3.pdf" target="_blank" rel="noopener noreferrer">Descargar CV</a>
                 </div>
             </div>
         </div>
